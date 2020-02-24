@@ -1,4 +1,6 @@
 
+# Forked to fix build issues in original repository, not official version. 
+
 # react-native-doc-viewer [![npm version](https://img.shields.io/npm/v/react-native-doc-viewer.svg?style=flat)](https://www.npmjs.com/package/react-native-doc-viewer)![Platform](https://img.shields.io/badge/platform-react--native%20%5Bios%20%26%20android%5D-blue.svg)![License](https://img.shields.io/npm/l/express.svg)
 
 ![nodei.co](https://nodei.co/npm/react-native-doc-viewer.png?downloads=true&downloadRank=true&stars=true)
@@ -36,7 +38,9 @@ Changelog:
 
 ## Getting started
 
-`$ npm install react-native-doc-viewer --save`
+`$ npm install git@github.com:Cnordbo/react-native-doc-viewer.git --save`
+or
+`$ yarn add git@github.com:Cnordbo/react-native-doc-viewer.git`
 
 ### Automatic installation
 
@@ -46,7 +50,7 @@ Changelog:
 
 If your project uses CocoaPods to manage React installation (especially with Expo-detached project), most likely you will run into issue with header files not found as described here (https://docs.expo.io/versions/latest/guides/expokit.html#changing-native-dependencies "Changing Native Dependencies"). It will be helpful to follow these steps to have it compiled successfully:
 
-1. `npm install react-native-doc-viewer --save`
+1. `npm install git@github.com:Cnordbo/react-native-doc-viewer.git --save`
 
 2. Add the plugin dependency to your Podfile, pointing at the path where NPM installed it:
 
