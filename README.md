@@ -1,5 +1,6 @@
 
-# Forked to fix build issues in original repository, not official version. 
+# Forked to fix build issues in original package, as Original owner seems to have stopped maintaining it/not accepting PRs.
+This is not an official version, but you can fork it directly to overcome your issues. There isnt a whole lot done to it except to remove an import statement. (see commit log), and update the README.
 
 # react-native-doc-viewer [![npm version](https://img.shields.io/npm/v/react-native-doc-viewer.svg?style=flat)](https://www.npmjs.com/package/react-native-doc-viewer)![Platform](https://img.shields.io/badge/platform-react--native%20%5Bios%20%26%20android%5D-blue.svg)![License](https://img.shields.io/npm/l/express.svg)
 
@@ -39,7 +40,9 @@ Changelog:
 ## Getting started
 
 `$ npm install git@github.com:Cnordbo/react-native-doc-viewer.git --save`
+
 or
+
 `$ yarn add git@github.com:Cnordbo/react-native-doc-viewer.git`
 
 ### Automatic installation
